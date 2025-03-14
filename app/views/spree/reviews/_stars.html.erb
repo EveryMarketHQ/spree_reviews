@@ -1,3 +1,3 @@
 <% unless stars.nil? %>
-  <div class="stars"><span class="empty"></span><span class="full" style="width:<%=stars*100/5 %>%"></span></div>
+  <div class="stars"><span class="empty"></span><span class="full" style="clip: rect(0, <%= stars * 116 / 5 %>px, 20px, 0)"></span></div>
 <% end %>
